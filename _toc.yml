@@ -1,16 +1,9 @@
 format: jb-book
 root: index.md
 parts:
-  - caption: 示例部分
-    chapters:
-      - file: 1_example_chapter/README.md
-        sections:
-          - file: 1_example_chapter/1_example_section/README.md
-            sections:
-              - file: 1_example_chapter/1_example_section/1_example_article.md
-              - file: 1_example_chapter/1_example_section/1_example_article2.md
-          - file: 1_example_chapter/2_example_article3.md
   - caption: 领域
     chapters:
       - file: domains/data_engineering/README.md
+      - file: domains/document_engineering/README.md
       - file: domains/collboration/README.md
+      - file: domains/innovation/README.md
